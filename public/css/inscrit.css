@@ -1,0 +1,48 @@
+main{
+    margin-top : 10px;
+    margin-bottom : 100px;
+    width : 100%;
+    padding : 0 40px;
+    /* border : 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 700px;
+}
+
+
+
+
+#mainImage{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainFrom{
+    border : 1px solid #08979d;
+    padding: 20px;
+    border-radius: 20px;
+} 
+
+#mainFrom > div:nth-child(1) > h1{
+    text-align: center;
+    color : #08979d;
+} 
+
+.BTN{
+    height: 45px;
+    width : 50%;
+    background-color: #08979d;
+    border-radius: 40px;
+    border : 1px solid #08979d;
+    font-size: 20px;
+    color : #ffffff;
+}
+
+.BTN:hover{
+    border : 1px solid #1a2529;
+    background-color: #1a2529
+}

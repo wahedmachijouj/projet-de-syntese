@@ -1,0 +1,100 @@
+main{
+    /* margin-top: 30px; */
+    width: 100%;
+}
+
+.trouverFormInputGroup{
+    width: 40%;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+    margin-left : 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.trouverFormInputGroup > input{
+    width: 90%;
+    height: 100%;
+    border : 1px solid #08979d;
+    background-color: #ffffff;
+    border-radius: 0 15px 15px 0;
+    border-left : none;
+    outline: none;
+}
+
+.trouverFormInputGroup > button{
+    width: 10%;
+    height: 100%;
+    border : 1px solid #08979d;
+    background-color: #ffffff;
+    border-radius: 15px 0 0 15px;
+    border-right : none;
+}
+
+
+
+
+
+
+
+.rdv{
+    border : 1px solid #6ec6ca;
+    width: 70%;
+    margin : 20px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #6ec6ca;
+
+}
+
+.rdv-part1{
+    /* border : 1px solid black; */
+    width: 70%;
+}
+
+.rdv-header{
+    width : 40%;
+    border-bottom : 1px solid black;
+    margin:15px;
+}
+
+.rdv-body{
+    /* border : 1px solid black; */
+    padding-left : 20px;
+    margin-bottom: 10px;
+}
+/* .rdv-body > h6{
+    margin : 0px;
+} */
+.rdv-body > p{
+    margin : 0px;
+}
+
+.rdv-part2{
+    /* border : 1px solid black; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdv-part2 > a {
+    width : 130px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #08979d;
+    border : none;
+}
+
+.rdv-part2 > a:hover {
+    background-color: #1a2529;
+}
+
+
