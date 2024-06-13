@@ -1,4 +1,4 @@
-1 - git clone https://github.com/wahedmachijouj/projet-de-syntese.git
+1 - git clone https://github.com/wahedmachijouj/projet-de-syntese.git </br>
 2 - cd \projet-cloned
 3 - composer install
 4 - cp .env.example .env
